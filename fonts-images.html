@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Font Styles and Image Tag</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; background: #fdf6ec; }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="formatting.html">Formatting &amp; Headings</a>
+  <a href="fonts-images.html">Fonts &amp; Images</a>
+  <a href="marquee.html">Marquee</a>
+  <a href="other-tags.html">Other Tags</a>
+</nav>
+
+<h1 class="page-title" id="top">Font Styles and Image Tag</h1>
+
+<div class="card">
+  <h2>Font Styles</h2>
+  <p style="font-family: Arial, sans-serif;">This line uses <code>font-family: Arial</code>.</p>
+  <p style="font-family: 'Courier New', monospace;">This line uses <code>font-family: 'Courier New'</code>.</p>
+  <p style="font-family: 'Brush Script MT', cursive;">This line uses <code>font-family: cursive</code> style.</p>
+  <p style="font-size: 22px; color: #b3541e;">Font size and color can be set with the <code>style</code> attribute (font-size, color).</p>
+</div>
+
+<div class="card" id="image-section">
+  <h2>Image Tag</h2>
+  <p>Use: <code>&lt;img src="..." alt="..." width=".." height=".."&gt;</code> to insert an image.</p>
+  <img src="https://picsum.photos/300/180" alt="Sample placeholder image" width="300" height="180">
+  <p>Attributes used above: <code>src</code> (image path/URL), <code>alt</code> (text if image fails to load), <code>width</code> and <code>height</code> (size in pixels).</p>
+</div>
+
+<p class="card">Internal link: jump to the <a href="#image-section">image section</a> above.</p>
+
+<a class="home-link" href="index.html">&larr; Back to Home</a>
+
+<p style="text-align:center; font-size:13px; color:#666; margin-top:30px;">
+  Made by Shyambhavi &middot; BCA 1st Sem
+</p>
+
+</body>
+</html>

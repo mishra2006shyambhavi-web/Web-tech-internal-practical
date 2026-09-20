@@ -1,0 +1,63 @@
+/* common styles for all pages */
+
+body {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  color: #1a1a1a;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.page-title {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+.card {
+  border: 1px solid #999;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.home-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 6px 12px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+}
+
+.topic-list {
+  padding-left: 25px;
+}
+
+.topic-list li {
+  padding: 4px 0;
+}
+
+.topic-list a {
+  font-size: 17px;
+}
+
+marquee {
+  background-color: yellow;
+  color: red;
+  border: 1px solid black;
+  padding: 6px;
+  font-weight: bold;
+}

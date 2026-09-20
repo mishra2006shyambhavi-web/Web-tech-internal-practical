@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Home - HTML Practicals</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  /* background image for home page */
+  body {
+    background-image: url('bg.jpg');
+    background-color: #3f5b98;
+    color: white;
+    font-family: Verdana, sans-serif;
+  }
+  nav { background-color: #000; }
+  .card { color: #222; background-color: white; }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="formatting.html">Formatting &amp; Headings</a>
+  <a href="fonts-images.html">Fonts &amp; Images</a>
+  <a href="marquee.html">Marquee</a>
+  <a href="other-tags.html">Other Tags</a>
+</nav>
+
+<h1 class="page-title" id="top">Core Practicals: HTML Tutorial</h1>
+
+<!-- marquee text -->
+<marquee behavior="scroll" direction="left" scrollamount="6">
+  HTML Tutorial - Formatting, Fonts, Images, Marquee and more
+</marquee>
+
+<div class="card">
+  <h2>Topics</h2>
+  <ol class="topic-list">
+    <li><a href="formatting.html">Formatting Styles and Headings</a></li>
+    <li><a href="fonts-images.html">Font Styles and Image Tag</a></li>
+    <li><a href="marquee.html">Marquee (Text, Image, Hyperlink)</a></li>
+    <li><a href="other-tags.html">Other Tags: br, hr, pre, p</a></li>
+  </ol>
+</div>
+
+<div class="card">
+  <p>See the <a href="#note">note</a> below (this is an internal link, it just jumps down the same page).</p>
+</div>
+
+<p id="note" class="card">
+  <strong>Note:</strong> each page only covers how the tag/attribute is used,
+  not the full theory. every page links back to home and has one internal
+  link of its own.
+</p>
+
+<a class="home-link" href="#top">Back to top</a>
+
+<p style="text-align:center; font-size:13px; color:#eee; margin-top:30px;">
+  Made by Shyambhavi &middot; BCA 1st Sem
+</p>
+
+</body>
+</html>
